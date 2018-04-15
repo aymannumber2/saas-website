@@ -6,4 +6,44 @@
 
 html {
   font-family: sans-serif;
+  color: black;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+  top: 500px;
+  left: 300px;
+}
+
+ul {
+  margin-left: 2em;
+}
+
+li {
+  display: inline-block;
+  margin-right: 5em;
+}
+
+.highlighted {
+  text-decoration: underline;
+}
+
+nav {
+  background-color: lightblue;
+  padding: 0.1em;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }

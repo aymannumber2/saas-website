@@ -29,8 +29,16 @@ li {
   margin-right: 5em;
 }
 
+div {
+  display:inline-block;
+}
+
 .highlighted {
   text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 nav {

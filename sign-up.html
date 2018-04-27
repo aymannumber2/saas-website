@@ -7,19 +7,49 @@
 
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="grid bannercolor">
+    <div class="unit m">
+    <h1 class="name">Slack</h1>
+    </div>
+    <nav class="unit m">
       <ul>
-        <li class="name">Slack</li>
-        <li><a href="index.html">Home</li>
+        <li><a class="highlighted" href="index.html">Home</li>
         <li><a href="tours.html">Tours</li>
         <li><a href="prices.html">Prices</li>
-        <li><a class="highlighted" href="sign-up.html">Sign-up</li>
+        <li><a href="sign-up.html">Sign-up</li>
       </ul>
     </nav>
   </header>
-  <h1>Slack is the most innovative platform yet</h1>
+  <p>When your team needs to kick off a project, hire a new employee, deploy some code, review a sales contract, finalize next year's budget, measure an A/B test, plan your next office opening, and more, Slack has you covered.</p>
   <img src="images/write-593333_960_720.jpg"></img>
 
+  <form action="thanks.html" method="post">
+    <div class="formspan">
+      <div>
+        <label for="name">Name</label>
+        <input id="name">
+      </div>
+
+      <div>
+        <label for="email">Your E-mail</label>
+        <input type="email" id="email" placeholder="your@email.com">
+      </div>
+
+      <div>
+        <label for="subject">Choose your plan</label>
+        <select id="subject">
+          <option>Basic</option>
+          <option>Regular</option>
+          <option>Pro</option>
+        </select>
+      </div>
+      <button type="submit">Send</button>
+
+      <label for="email">E-mail address</label>
+      <input type="email" id="email">
+
+      <label for="homepage">Full name</label>
+      <input type="url" id="homepage">
+    </div>
 </body>
 </html>

@@ -6,62 +6,149 @@
 
 html {
   font-family: sans-serif;
-  color: black;
+  background-color: #ddf5f0;
 }
 
 body {
   margin: 0;
 }
 
-h1 {
-  position: absolute;
-  color: white;
-  top: 500px;
-  left: 300px;
-}
-
-ul {
-  margin-left: 2em;
-}
-
-li {
-  display: inline-block;
-  margin-right: 5em;
-}
-
-div {
-  display:inline-block;
-}
-
-.highlighted {
-  text-decoration: underline;
-}
-
-img {
-  width: 100%;
-}
-
-nav {
-  background-color: lightblue;
-  padding: 0.1em;
-}
-
-main {
+table {
   border: 1px solid #ccc;
   border-collapse: collapse;
 }
 
 th, td {
   border: 1px solid #e2e2e2;
-  padding: 0.75em;
+  padding: 1em;
 }
 
-.name {
-  font-weight: bold;
-  font-size: 1.5em;
+label {
+  display: block;
+}
+
+form div {
+  margin-bottom: 1.5rem;
+}
+
+input {
+  font-size: 1.125rem;
+}
+
+input,
+select,
+textarea {
+  font-size: 1.125rem;
+  width: 15em;
+}
+
+textarea {
+  height: 10em;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  padding: 0.3em;
+  background-color: #e2e2e2;
+  border-radius: 6px;
+}
+
+input:focus,
+textarea:focus {
+  background-color: #fff;
+}
+
+button {
+  font-size: 1.125rem;
+  padding: 0.5em 0.75em;
+  background-color: beige;
+  border: 1px solid black;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+li {
+  display: inline-block;
+  margin-right: 4em;
+  padding-top: 0.5em;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+h1 {
+  padding-right: 3em;
+}
+
+h2 {
+  padding-top: 1em;
+}
+
+.bannercolor {
+  background-color: #aadaf5;
+}
+
+.unit-s-1 {
+  width: 100%;
+}
+
+.unit-m-1-2 {
+  width: 50%;
+}
+
+.formspan {
+  margin-left: 3em;
+}
+
+.island-2 {
+  width: 50%;
+}
+
+.caption {
+  width: 50%;
+}
+
+.yes {
+  padding: 6em;
+}
+
+.yes:hover {
+  background-color: beige;
+}
+
+.nav {
+  width: 100%;
+}
+
+.basic {
+  padding: 1em;
+}
+
+.basic:hover {
+  background-color: #e33;
+}
+
+.medium {
+  padding: 1em;
+}
+
+.medium:hover {
+  background-color: #e33;
+}
+
+.premium {
+  padding: 1em;
+}
+
+.premium:hover {
+  background-color: #e33;
+}
+
+.bmp {
+  display: inline-block;
 }
